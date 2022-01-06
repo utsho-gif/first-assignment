@@ -24,7 +24,7 @@ h3 {
   margin-bottom: 150px;
 }
 .apply-border {
-  border-left: 4px solid;
+  border-left: 7px solid;
   border-radius: 3px;
   border-image: linear-gradient(tomato, purple);
   border-image-slice: 1;
@@ -83,17 +83,22 @@ section {
 #change-bg {
   background-image: url(mission-2022-main/images/shapes/shape-1.png);
   background-repeat: no-repeat;
+  background-size: 10%;
+  background-position-x: 6%;
+  background-position-y: 45%;
  
 }
 .global-area {
   background-image: url(mission-2022-main/images/shapes/shape-1.png);
-  background-repeat: space;
-  margin-top: 30px;
+  background-repeat: no-repeat;
+  background-size: 10%;
+    background-position-x: 90%;
+    background-position-y: 80%;
 }
 .footer-manage {
   text-align: center;
   background-color: black;
-  padding: 0 200px;
+  padding: 1% 0;
 }
 .white-clr {
   color: antiquewhite;
