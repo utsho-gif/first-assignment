@@ -10,11 +10,18 @@ h1 {
 h2 {
   font-size: 40px;
 }
+h3 {
+  font-size: 30px;
+}
 .crimson-color {
   color: rgb(141, 15, 40);
 }
 .second-color {
   color: rgb(10, 10, 80);
+}
+.flexible-container {
+  display: flex;
+  margin-bottom: 150px;
 }
 .apply-border {
   border-left: 4px solid;
@@ -51,6 +58,46 @@ section {
 #middler-text {
   text-align: center;
 }
+.trpl-div {
+  width: 20%;
+  margin-left: 10%;
+  background-color: red;
+  padding-left: 10px;
+  border-radius: 15px;
+}
+.trpl-div img {
+  width: 80%;
+}
 #box-sdw1 {
-  background-color: DarkSeaGreen;
+  background-color: aliceblue;
+}
+#box-sdw2 {
+  background-color: rgb(238, 192, 200);
+}
+#box-sdw3 {
+  background-color: blanchedalmond;
+}
+#box-right {
+  margin-right: 15%;
+}
+#change-bg {
+  background-image: url(mission-2022-main/images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+ 
+}
+.global-area {
+  background-image: url(mission-2022-main/images/shapes/shape-1.png);
+  background-repeat: space;
+  margin-top: 30px;
+}
+.footer-manage {
+  text-align: center;
+  background-color: black;
+  padding: 0 200px;
+}
+.white-clr {
+  color: antiquewhite;
+}
+.red-clr {
+  color: brown;
 }
